@@ -5,12 +5,15 @@ Simple extbase extension to showcase translation handling problem
 # workflow
 
 Install extension
+add demo.sql to your database
 
-add 1-2 records of type sectors to your database and add a translation
-create a record of type customer in the backend, set language to -1 and assign a sector
+add plugin to your demo-page and translate the page.
 
-
-translate the frontend page and open the frontend editor in the secondary language
-try to edit the record and you'll see the id of the sector in the dropdown with uid_uidtranslated
+Open the frontend in the secondary language secondary language
+try to edit a record and you'll see the id of the sector in the dropdown with uid_uidtranslated
 saving the record does not work
+
+Does not work with records of sys_language_uid -1
+or sys_language_uid 1
+or translations of a sys_language_uid=0 record
 

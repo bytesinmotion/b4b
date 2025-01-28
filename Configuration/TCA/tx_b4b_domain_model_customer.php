@@ -77,6 +77,7 @@ return [
         ],
         'sector' => [
             'exclude' => false,
+            'l10n_mode' => 'exclude',
             'label' => 'LLL:EXT:b4b/Resources/Private/Language/locallang_db.xlf:tx_b4b_domain_model_customer.sector',
             'description' => 'LLL:EXT:b4b/Resources/Private/Language/locallang_db.xlf:tx_b4b_domain_model_customer.sector.description',
             'config' => [
@@ -89,6 +90,6 @@ return [
             ],
 
         ],
-    
+
     ],
 ];
