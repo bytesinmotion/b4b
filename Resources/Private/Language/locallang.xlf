@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:b4b/Resources/Private/Language/locallang.xlf" date="2025-01-28T08:08:43Z" product-name="b4b">
+		<header/>
+		<body>
+			<trans-unit id="tx_b4b_domain_model_customer" resname="tx_b4b_domain_model_customer">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_customer.description" resname="tx_b4b_domain_model_customer.description">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_customer.company" resname="tx_b4b_domain_model_customer.company">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_customer.company.description" resname="tx_b4b_domain_model_customer.company.description">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_customer.sector" resname="tx_b4b_domain_model_customer.sector">
+				<source>Sector</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_customer.sector.description" resname="tx_b4b_domain_model_customer.sector.description">
+				<source>Sector</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_sectors" resname="tx_b4b_domain_model_sectors">
+				<source>Sectors</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_sectors.description" resname="tx_b4b_domain_model_sectors.description">
+				<source>Sectors</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_sectors.title" resname="tx_b4b_domain_model_sectors.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_b4b_domain_model_sectors.title.description" resname="tx_b4b_domain_model_sectors.title.description">
+				<source>Title</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

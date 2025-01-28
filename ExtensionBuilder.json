@@ -1,0 +1,253 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    110,
+                    330
+                ]
+            },
+            "name": "Customer",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Customer",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": false,
+                    "aggregateRoot": true,
+                    "controllerScope": "Frontend",
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "115540b1-2fb5-4b4b-b28e-17e17e8facd6"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": true,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "company",
+                            "propertyType": "String",
+                            "typeSelect": {
+                                "selectboxValues": "",
+                                "renderType": "selectSingle",
+                                "foreignTable": "",
+                                "whereClause": ""
+                            },
+                            "typeText": {
+                                "enableRichtext": false
+                            },
+                            "typeNumber": {
+                                "enableSlider": false,
+                                "steps": 1,
+                                "setRange": false,
+                                "upperRange": 255,
+                                "lowerRange": 0
+                            },
+                            "typeColor": {
+                                "setValuesColorPicker": false,
+                                "colorPickerValues": ""
+                            },
+                            "typeBoolean": {
+                                "renderType": "default",
+                                "booleanValues": ""
+                            },
+                            "typePassword": {
+                                "renderPasswordGenerator": false
+                            },
+                            "typeDateTime": {
+                                "dbTypeDateTime": "",
+                                "formatDateTime": ""
+                            },
+                            "typeFile": {
+                                "allowedFileTypes": ""
+                            },
+                            "size": "30",
+                            "rows": "10",
+                            "minItems": "",
+                            "maxItems": "",
+                            "uid": "d16f0676-38d7-4e71-b2a1-e9f61910a4f2"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "excludeField": false,
+                            "relationDescription": "",
+                            "relationName": "sector",
+                            "relationType": "zeroToOne",
+                            "relationWire": "[wired]",
+                            "renderType": "selectSingle",
+                            "uid": "68d1867d-ac44-4d20-aec0-ddeee652a6ec"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    677,
+                    340
+                ]
+            },
+            "name": "Sectors",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": false,
+                    "_default2_show": false,
+                    "_default3_new_create": false,
+                    "_default4_edit_update": false,
+                    "_default5_delete": false,
+                    "customActions": []
+                },
+                "name": "Sectors",
+                "objectsettings": {
+                    "addDeletedField": false,
+                    "addHiddenField": false,
+                    "addStarttimeEndtimeFields": false,
+                    "aggregateRoot": true,
+                    "controllerScope": "Frontend",
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "12cc22e4-4666-4dbf-89d5-91712052b314"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "typeSelect": {
+                                "selectboxValues": "",
+                                "renderType": "selectSingle",
+                                "foreignTable": "",
+                                "whereClause": ""
+                            },
+                            "typeText": {
+                                "enableRichtext": false
+                            },
+                            "typeNumber": {
+                                "enableSlider": false,
+                                "steps": 1,
+                                "setRange": false,
+                                "upperRange": 255,
+                                "lowerRange": 0
+                            },
+                            "typeColor": {
+                                "setValuesColorPicker": false,
+                                "colorPickerValues": ""
+                            },
+                            "typeBoolean": {
+                                "renderType": "default",
+                                "booleanValues": ""
+                            },
+                            "typePassword": {
+                                "renderPasswordGenerator": false
+                            },
+                            "typeDateTime": {
+                                "dbTypeDateTime": "",
+                                "formatDateTime": ""
+                            },
+                            "typeFile": {
+                                "allowedFileTypes": ""
+                            },
+                            "size": "30",
+                            "rows": "10",
+                            "minItems": "",
+                            "maxItems": "",
+                            "uid": "9d368c8c-d0ce-43f2-8208-3ef266beead7"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "",
+            "custom_category": "",
+            "dependsOn": "typo3 => 12.4.0-12.4.99",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": true,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "12.4",
+            "version": "0.0.1"
+        },
+        "extensionKey": "b4b",
+        "name": "b4b",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Customer => list,show",
+                    "noncacheableActions": "Customer => edit,new,update,delete,create"
+                },
+                "description": "Frontend editor",
+                "key": "feditor",
+                "name": "b4b frontend editor"
+            }
+        ],
+        "vendorName": "bytesinmotion"
+    },
+    "wires": [
+        {
+            "src": {
+                "moduleId": 0,
+                "terminal": "relationWire_0",
+                "uid": "reactflow__edge-dndnode_0rel-dndnode_0-92ecb2bf-a351-4ad4-a232-a30d0701088f-dndnode_1cmn-dndnode_1"
+            },
+            "tgt": {
+                "moduleId": 1,
+                "terminal": "SOURCES",
+                "uid": "dndnode_0"
+            }
+        }
+    ],
+    "storagePath": "\/home\/p-len4ck\/html\/look4u-jobfinder-b11hh\/public\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2025-01-28 09:43",
+        "extension_builder_version": "12.0.0-beta.2",
+        "be_user": " (1)"
+    }
+}

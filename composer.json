@@ -1,0 +1,33 @@
+{
+    "name": "bytesinmotion/b4b",
+    "type": "typo3-cms-extension",
+    "description": "Custom B4B customer handling",
+    "authors": [],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "bytesinmotion\\B4b\\": "Classes"
+        }
+    },
+    "replace": {
+        "typo3-ter/b4b": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+        ]
+    },
+    "extra": {
+        "typo3/cms": {
+            "web-dir": ".Build/public",
+            "extension-key": "b4b"
+        }
+    }
+}

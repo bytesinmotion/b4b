@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:b4b/Resources/Private/Language/locallang_csh_tx_b4b_domain_model_customer.xlf" date="2025-01-28T08:08:43Z" product-name="b4b">
+		<header/>
+		<body>
+			<trans-unit id="company.description" resname="company.description">
+				<source>company</source>
+			</trans-unit>
+			<trans-unit id="sector.description" resname="sector.description">
+				<source>sector</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,14 @@
+plugin.tx_b4b_feditor {
+    view {
+        # cat=plugin.tx_b4b_feditor/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:b4b/Resources/Private/Templates/
+        # cat=plugin.tx_b4b_feditor/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:b4b/Resources/Private/Partials/
+        # cat=plugin.tx_b4b_feditor/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:b4b/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_b4b_feditor//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

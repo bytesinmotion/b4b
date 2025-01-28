@@ -1,0 +1,15 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="mb-3">
+    <label for="" class="form-label">
+        <f:translate key="tx_b4b_domain_model_customer.company" />
+    </label>
+	<f:form.textfield property="company" id="" class="form-control" />
+
+    <div class="form-group col-12 col-sm-6">
+       Sector
+        <f:form.select property="sector" prependOptionLabel="" multiple="0" class="form-control "   options="{sectors}" optionLabelField="title" sortByOptionLabel="0" />
+    </div>
+
+
+</div>
+</html>
